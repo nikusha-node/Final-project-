@@ -60,7 +60,7 @@ a:hover {
     display: flex;
     background-color: rgb(94, 94, 94);
     justify-content: space-around;
-     background: #2d2d2d url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    background: #2d2d2d url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
 }
 
 .left1 {
@@ -96,7 +96,6 @@ a:hover {
 .video {
     padding: 0 120px 0 100px ;
     max-width: 1300px;
-
 }
 
 .main-2 {
@@ -406,3 +405,213 @@ a:hover {
     justify-content: center;
 }
 
+
+
+@media (max-width: 550px) {
+    .header-main {
+        width: 600px;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .right {
+        gap: 25px;
+        padding-right: 30px;
+    }
+
+    .icon {
+        z-index: -3000;
+    }
+    .left h1 {
+        font-size: 13px;
+        width: 100px;
+
+    }
+
+    .main-1 {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 600px;
+    }
+
+    .left1 {
+        height: 200px;
+    }
+
+    .video {
+        padding: 120px 0 0 0;
+    }
+
+    .videos {
+        height: 500px;
+    }
+
+    .main-2 {
+       display: flex;
+       flex-direction: column-reverse; 
+       padding-top: 300px;
+    }
+
+    .right2 {
+        width: 500px;
+        height: 520px;
+    }
+
+    .left2 {
+        display: flex;
+        flex-direction: column;
+        padding-right: 100px;
+    }
+
+    .left2 img {
+        width: 790px;
+        height: 500px;
+        padding-left: 20px;
+    }
+
+    .section-1 {
+        display: flex;
+        height: 400px;
+        width: 600px;
+        position: relative;
+        bottom: 150px;
+        z-index: 1000;
+    }
+
+    .main-3 {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 400px;
+    }
+
+    .left3 {
+        position: relative;
+        top:  83%;
+        min-height: 517px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .text1 {
+      position: relative;
+      bottom: 150px;
+      right: 60px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 475px;
+        align-items: center;
+        justify-content: center;
+        right: 45px;
+        height: 400px;
+    }
+
+    .card {
+        width: 600px;
+        height: 100px;
+    }
+
+    .main-4 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 700px;
+        z-index: 10000;
+    }
+
+    .top-1 {
+        position: relative;
+        left: 0px;
+        font-size: 20px;
+        bottom: 90px;
+    }
+
+    .bottom-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-5 {
+        width: 600px;
+        height: 400px;
+    }
+
+    .section-2 {
+        display: flex;
+        height: 400px;
+        width: 600px;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .bg-2 {
+        position: relative;
+        top: 1052;
+        bottom: 468px;
+        height: 468px;
+        
+    }
+
+    .main-6 {
+        display: flex;
+        width: 600px;
+        padding: 150px 0 0 0;
+    }
+
+    .top-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2 {
+        width: 600px;
+        border: none;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    .text {
+        display: flex;
+        gap: 50px;
+    }
+
+    .box {
+        width: 600px;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    .box h2 {
+        width: 300px;
+    }
+
+    .box button {
+        width: 200px;
+        height: 50px;
+    }
+
+    .map {
+        width: 600px;
+        height: 440px;
+        position: relative;
+        bottom: 13px;
+    }
+
+}
