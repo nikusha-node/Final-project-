@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10000000;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px 20px 50px;
+    background-color: rgb(27, 27, 27);
+    height: 70px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+}
+
+.right {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    color: white;
+}
+
+.right a {
+    text-decoration-line: none;
+    color: white;
+    font-size: large;
+}
+
+a:hover {
+    color: #ff5020;
+    transition: 0.3s;
+}
+
+.background {
+    background-color:  rgb(94, 94, 94);
+    width: 100%;
+    height: 430px;
+    z-index: -1;
+    background: #2d2d2d url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+}
+
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 100;
+    padding: 100px 0 0 350px;
+    font-size: 30px;
+    gap: 10px;
+    color: white;
+}
+
+.text-1 h4 {
+    color: white;
+}
+
+.text-1 h1 {
+    color: #ff5020;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.page1 {
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+    left: 20%;
+    bottom: 170px;
+    width: 980px;
+    height: 200px;
+    padding: 0 20px 0 20px;
+}
+
+.text-2 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    width: 920px;
+    display: flex;
+    padding: 20px 0 20px 0;
+    position: relative;
+    top: 20px;
+    
+}
+
+.text-2 a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 22px;
+}
+
+.text-3 {
+    position: relative;
+    top: 40px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.text-3 button {
+    width: 110px;
+    height: 40px;
+    border: none;
+    background-color: #ff5020;
+    color: white;
+}
+
+.page2 {
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: column;
+    left: 20%;
+    bottom: 80px;
+    width: 980px;
+}
