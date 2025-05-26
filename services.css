@@ -87,6 +87,8 @@ a:hover {
 .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .page1 {
@@ -96,7 +98,6 @@ a:hover {
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    left: 20%;
     bottom: 170px;
     width: 980px;
     height: 200px;
@@ -144,7 +145,6 @@ a:hover {
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    left: 21%;
     bottom: 120px;
     width: 980px;
 }
@@ -189,7 +189,6 @@ a:hover {
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    left: 21%;
     bottom: 50px;
     width: 980px;
 }
@@ -234,7 +233,6 @@ a:hover {
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    left: 21%;
     top: 30px;
     width: 980px;
 }
@@ -281,7 +279,6 @@ a:hover {
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    left: 21%;
     top: 120px;
     width: 980px;
 }
@@ -355,6 +352,8 @@ a:hover {
 .main-6 {
      display: flex;
      flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
      gap: 10px;
      padding: 100px;
 }
@@ -379,6 +378,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    flex: 1 1 250px;
 }
 
 .card-2 h3 {

@@ -318,10 +318,12 @@ a:hover {
 }
 
 .main-6 {
-     display: flex;
-     flex-direction: column;
-     gap: 10px;
-     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 100px;
 }
 
 .card-3 {
@@ -332,7 +334,7 @@ a:hover {
 
 .top-3 {
     font-size: xx-large;
-    padding-left: 230px;
+    padding-bottom: 30px
 }
 
 .card-2 {
@@ -344,6 +346,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    flex: 1 1 250px;
 }
 
 .card-2 h3 {
