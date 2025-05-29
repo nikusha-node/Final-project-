@@ -410,34 +410,36 @@ a:hover {
 @media (max-width: 550px) {
 
     .mainn {
-       max-width: 100%;
+       min-width: 100%;
     }
 
+   
     .header-main {
-        width: 100%;
+        width:  550px;
         padding: 0;
         gap: 10px;
     }
 
     .right {
         gap: 25px;
-        padding-right: 30px;
+        padding-right: 50px;
     }
 
-    .icon {
-        z-index: -3000;
-    }
     .left h1 {
         font-size: 13px;
         width: 100px;
-
     }
+
+    .icon {
+        display: none;
+    }
+
 
     .main-1 {
         display: flex;
         flex-direction: column;
         height: 400px;
-        width: 100%;
+        width: 550px;
     }
 
     .left1 {
@@ -471,7 +473,7 @@ a:hover {
     }
 
     .left2 img {
-        width: 550px;
+        width: 595px;
         height: 500px;
         padding-left: 20px;
     }
@@ -489,13 +491,13 @@ a:hover {
     .main-3 {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 550px;
         height: 400px;
     }
 
     .left3 {
         position: relative;
-        top:  83%;
+        top:  71%;
         min-height: 517px;
         display: flex;
         flex-direction: column;
@@ -521,7 +523,7 @@ a:hover {
     }
 
     .card {
-        width: 100%;
+        width: 559px;
         height: 100px;
     }
 
@@ -560,14 +562,14 @@ a:hover {
     .bg-2 {
         position: relative;
         top: 1052;
-        bottom: 468px;
-        height: 468px;
+        bottom: 516px;
+        height: 516px;
         
     }
 
     .main-6 {
         display: flex;
-        width: 500px;
+        width: 550px;
         padding: 150px 0 0 0;
     }
 
@@ -615,7 +617,7 @@ a:hover {
     }
 
     .map {
-        width: 500px;
+        width: 550px;
         height: 440px;
         position: relative;
         bottom: 13px;
