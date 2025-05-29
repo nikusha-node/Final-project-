@@ -437,3 +437,243 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 550px) {
+
+    .header-main {
+        width:  550px;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .right {
+        gap: 25px;
+        padding-right: 50px;
+    }
+
+    .left h1 {
+        font-size: 13px;
+        width: 100px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .background {
+        width: 550px;
+    }
+
+    .text-1 {
+        position: relative;
+        right: 280px;
+        width: 100%;
+    }
+
+    .text-1 h1 {
+        width: 250px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+    }
+
+    .page1 {
+        width: 370px;
+        position: relative;
+        bottom: 0;
+        border: 1px solid black;
+        height: 300px;
+        top: 50px;
+    }
+
+    .text-2 {
+        border: none;
+        width: 100%;
+    }
+
+    .text-2 h1 {
+        font-size: 25px;
+    }
+
+    .text-3 {
+        border-top: 1px solid #2d2d2d;
+        width: 330px;
+        padding-top: 20px;
+    }
+
+    .page2 {
+        width: 370px;
+        position: relative;
+        bottom: 0;
+        border: 1px solid black;
+        height: 300px;
+        top: 80px;
+        padding: 15px;
+    }
+
+    .text-4 {
+        border: none;
+        width: 300px;
+    }
+
+    .text-4 h1 {
+        font-size: 25px;
+    }
+
+    .text-5 {
+        border-top: 1px solid #2d2d2d;
+        width: 330px;
+        padding-top: 20px;
+    }
+
+    .page3 {
+        width: 370px;
+        position: relative;
+        bottom: 0;
+        border: 1px solid black;
+        height: 300px;
+        top: 110px;
+        padding: 15px;
+    }
+
+    .text-6 {
+        border: none;
+        width: 100%;
+    }
+
+    .text-6 h1 {
+        font-size: 25px;
+    }
+
+    .text-7 {
+        border-top: 1px solid #2d2d2d;
+        width: 330px;
+        padding-top: 20px;
+    }
+
+    .page4 {
+        width: 370px;
+        position: relative;
+        bottom: 0;
+        border: 1px solid black;
+        height: 300px;
+        top: 140px;
+        padding: 15px;
+    }
+
+    .text-8 {
+        border: none;
+        width: 100%;
+    }
+
+    .text-8 h1 {
+        font-size: 25px;
+    }
+
+    .text-9 {
+        border-top: 1px solid #2d2d2d;
+        width: 330px;
+        padding-top: 20px;
+    }
+
+    .page5 {
+        width: 370px;
+        position: relative;
+        bottom: 0;
+        border: 1px solid black;
+        height: 300px;
+        top: 170px;
+        padding: 15px;
+    }
+
+    .text-10 {
+        border: none;
+        width: 100%;
+    }
+
+    .text-10 h1 {
+        font-size: 25px;
+    }
+
+    .text-11 {
+        border-top: 1px solid #2d2d2d;
+        width: 330px;
+        padding-top: 20px;
+    }
+
+    .border {
+        border: none;
+    }
+
+    .main-1 {
+        width: 550px;
+    }
+
+    .bg-1 {
+        position: relative;
+        top: -1;
+        bottom: 162px;
+        height: 413px;
+    }
+
+    .main-6 {
+        display: flex;
+        width: 550px;
+        padding: 150px 0 0 0;
+    }
+
+    .top-3 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .card-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2 {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    .text {
+        display: flex;
+        gap: 50px;
+    }
+
+    .box {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    .box h2 {
+        width: 300px;
+    }
+
+    .box button {
+        width: 200px;
+        height: 50px;
+    }
+
+    .map {
+        width: 550px;
+        height: 440px;
+        position: relative;
+        bottom: 13px;
+    }
+   
+}
