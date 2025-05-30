@@ -235,3 +235,143 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 550px) {
+    .header-main {
+        width:  554px;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .right {
+        gap: 25px;
+        padding-right: 50px;
+    }
+
+    .left h1 {
+        font-size: 13px;
+        width: 100px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .section-1 {
+        width: 554px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-1 {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 554px;
+    }
+
+    .text1 {
+        position: relative;
+        left: 0;
+        width: 450px;
+    }
+
+    .page {
+        padding: 50px;
+    }
+
+    .img-1 {
+        width: 450px;
+        height: 400px;
+        position: relative;
+        top: 120px;
+    }
+
+    .main-2 {
+        padding-right: 0;
+        position: relative;
+        bottom: 60px;
+        left: 50px;
+        gap: 0;
+    }
+
+    .main-2 p {
+        width: 450px;
+        padding: 50px;
+    }
+
+    .main-3 {
+        width: 554px;
+        position: relative;
+        bottom: 100px;
+        height: 400px;
+    }
+
+    .section {
+        height: 450px;
+    }
+
+    .black {
+        height: 468px;
+        position:  relative;
+        top: -1;
+        bottom: 368px;
+    }
+
+    .main-6 {
+        display: flex;
+        width: 554px;
+        padding: 150px 0 0 0;
+    }
+
+    .top-3 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    .card-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2 {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    .text {
+        display: flex;
+        gap: 50px;
+    }
+
+    .box {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    .box h2 {
+        width: 300px;
+    }
+
+    .box button {
+        width: 200px;
+        height: 50px;
+    }
+
+    .map {
+        width: 554px;
+        height: 440px;
+        position: relative;
+        bottom: 13px;
+    }
+}

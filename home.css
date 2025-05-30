@@ -415,7 +415,7 @@ a:hover {
 
    
     .header-main {
-        width:  550px;
+        width:  553px;
         padding: 0;
         gap: 10px;
     }
@@ -439,7 +439,7 @@ a:hover {
         display: flex;
         flex-direction: column;
         height: 400px;
-        width: 550px;
+        width: 553px;
     }
 
     .left1 {
@@ -469,20 +469,13 @@ a:hover {
         display: flex;
         flex-direction: column;
         position: relative;
-        right: 70px;
+        right: 70px; 
     }
 
     .left2 img {
-        width: 595px;
+        width: 715px;
         height: 500px;
-        padding-left: 20px;
-    }
-
-    .left-img {
-        animation: forwards;
-        animation-duration: 1s;
-        transition: ease;
-        transform: translateX(0);
+        padding-left: 30px;
     }
 
 
@@ -498,14 +491,14 @@ a:hover {
     .main-3 {
         display: flex;
         flex-direction: column;
-        width: 550px;
+        width: 553px;
         height: 400px;
     }
 
     .left3 {
         position: relative;
-        top:  71%;
-        min-height: 517px;
+        top:  83%;
+        min-height: 507px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -530,7 +523,7 @@ a:hover {
     }
 
     .card {
-        width: 559px;
+        width: 562px;
         height: 100px;
     }
 
@@ -554,7 +547,7 @@ a:hover {
     }
 
     .main-5 {
-        width: 100%;
+        width: 554px;
         height: 400px;
     }
 
@@ -569,14 +562,14 @@ a:hover {
     .bg-2 {
         position: relative;
         top: 1052;
-        bottom: 516px;
-        height: 516px;
+        bottom: 468px;
+        height: 468px;
         
     }
 
     .main-6 {
         display: flex;
-        width: 550px;
+        width: 554px;
         padding: 150px 0 0 0;
     }
 
@@ -625,7 +618,7 @@ a:hover {
     }
 
     .map {
-        width: 550px;
+        width: 554px;
         height: 440px;
         position: relative;
         bottom: 13px;
