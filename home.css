@@ -250,9 +250,9 @@ a:hover {
 }
 
 .main-3 {
-    height: 0px;
+    /* height: 0px; */
     position: relative;
-    bottom: 750px;
+    /* bottom: 750px; */
 }
 
 .img-3 {
@@ -270,12 +270,12 @@ a:hover {
     gap: 20px;
     z-index: 100;
     width: 260px;
-    position: relative;
+    /* position: relative; */
     color: white;
     width: 100%;
-    height: 650px;
+    /* height: 650px; */
     top: 150px;
-    padding: 200px 0 0 150px;
+    padding: 0px;
     font-size: x-large;
 }
 
@@ -291,7 +291,7 @@ a:hover {
 }
 
 .section-1 {
-    height: 1000px;
+    /* height: 1000px; */
 }
 
 .section {
@@ -301,7 +301,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    top: 800px;
+    /* top: 800px; */
     z-index: -1;
 }
 
@@ -311,9 +311,10 @@ a:hover {
 
 .bottom {
     display: flex;
-    position: relative;
-    top: 250px;
-    padding-left: 15%;
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
     align-items: center;
     background-color: white;
 }
@@ -336,7 +337,7 @@ a:hover {
     z-index: 10000;
     color: rgba(0, 0, 0, 0.575);
     position: relative;
-    bottom: 200px;
+    /* bottom: 200px; */
     background-color: white;
 }
 
@@ -346,6 +347,7 @@ a:hover {
     padding: 0 100px 100px 100px;
     justify-content: center;
     align-items: center;
+    margin-top: 240px;
 }
 
 .top-1 {
@@ -550,6 +552,7 @@ a:hover {
        display: flex;
        flex-direction: column-reverse; 
        padding-top: 300px;
+       padding-bottom: 0px;
     }
 
     .right2 {
@@ -579,10 +582,8 @@ a:hover {
 
     .section-1 {
         display: flex;
-        height: 400px;
         width: 100%;
         position: relative;
-        bottom: 150px;
         z-index: 1000;
     }
 
@@ -590,36 +591,39 @@ a:hover {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 400px;
     }
 
     .left3 {
-        position: relative;
-        top:  83%;
-        right: 50px;
-        min-height: 507px;
+        height: auto;
         display: flex;
-        flex-direction: column;
         align-items: flex-start;
         justify-content: center;
         z-index: 100;
+        padding: 120px 0px 120px 12px;
     }
 
     .text1 {
-      position: relative;
-      bottom: 150px;
-      right: 60px;
+      /* position: absolute; */
+      /* bottom: 150px; */
+      /* left: 12px; */
+    }
+
+    .section {
+        min-height: 50vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
     }
 
     .bottom {
         display: flex;
         flex-direction: column;
-        position: relative;
-        top: 492px;
         align-items: center;
         justify-content: center;
-        right: 45px;
-        height: 400px;
+        position: relative;
+        bottom: 0;
     }
 
     .card {
@@ -630,7 +634,6 @@ a:hover {
     .main-4 {
         display: flex;
         flex-direction: column;
-        padding-top: 700px;
         z-index: 10000;
     }
 
