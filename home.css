@@ -64,7 +64,7 @@ a:hover {
   display: none;
   position: fixed;
   top: 0;
-  right: 110px;
+  right: 30px;
   font-size: 32px;
   background: none;
   padding: 10px;
@@ -195,6 +195,7 @@ a:hover {
     padding-bottom: 100px;
     z-index: 1000;
     background-color: white;
+    gap: 150px;
 }
 
 .left2 {
@@ -250,9 +251,7 @@ a:hover {
 }
 
 .main-3 {
-    /* height: 0px; */
     position: relative;
-    /* bottom: 750px; */
 }
 
 .img-3 {
@@ -270,10 +269,8 @@ a:hover {
     gap: 20px;
     z-index: 100;
     width: 260px;
-    /* position: relative; */
     color: white;
     width: 100%;
-    /* height: 650px; */
     top: 150px;
     padding: 0px;
     font-size: x-large;
@@ -290,9 +287,7 @@ a:hover {
     line-height: 40px;
 }
 
-.section-1 {
-    /* height: 1000px; */
-}
+
 
 .section {
     min-height: 50vh;
@@ -301,7 +296,6 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* top: 800px; */
     z-index: -1;
 }
 
@@ -337,7 +331,6 @@ a:hover {
     z-index: 10000;
     color: rgba(0, 0, 0, 0.575);
     position: relative;
-    /* bottom: 200px; */
     background-color: white;
 }
 
@@ -411,7 +404,6 @@ a:hover {
 .main-6 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     padding: 100px;
@@ -498,6 +490,133 @@ a:hover {
 }
 
 
+.form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 900px;
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+.block {
+    display: block;
+}
+
+.main-page {
+    width: 100%;
+}
+
+.top11 {
+    padding-bottom: 150px;
+    display: flex;
+    background-color: gray;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 40px;
+    background-image: url(https://www.transparenttextures.com/patterns/asfalt-dark.png);
+}
+
+.close-1 {
+    position: relative;
+    left: 870px;
+    bottom: 210px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+}
+
+
+.bottom11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 500px;
+    gap: 30px;
+    width: 800px;
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+}
+
+.bottom11 input {
+    border: none;
+    border-bottom: 1px solid rgba(53, 53, 53, 0.699);
+}
+
+.bottom-page1 {
+    display: flex;
+    gap: 25px;
+    width: 300px;
+}
+
+.bottom-page1 input {
+    width: 250px;
+}
+
+.bottom-page2 {
+    display: flex;
+    gap: 25px;
+    width: 300px;
+}
+
+.bottom-page2 input {
+    width: 250px;
+}
+
+.bottom11 label {
+    font-size: 14px;
+    color: #2d2d2d;
+}
+
+.services-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.services-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-1 input {
+    width: 500px;
+}
+
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+ .buttonn {
+    display: flex;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    background-color: #ff5020;
+    color: white;
+    border: none;
+    margin-right: 350px;
+}
+
+
 
 @media (max-width: 550px) {
 
@@ -569,8 +688,8 @@ a:hover {
         display: flex;
         flex-direction: column;
         position: relative;
-        right: 70px;
-        width: 100%; 
+        right: 133px;
+        width: 131%; 
     }
 
     .left2 img {
@@ -600,12 +719,6 @@ a:hover {
         justify-content: center;
         z-index: 100;
         padding: 120px 0px 120px 12px;
-    }
-
-    .text1 {
-      /* position: absolute; */
-      /* bottom: 150px; */
-      /* left: 12px; */
     }
 
     .section {
@@ -729,3 +842,9 @@ a:hover {
 
 
 }
+
+
+
+
+
+

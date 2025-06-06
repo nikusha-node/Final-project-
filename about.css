@@ -60,6 +60,90 @@ a:hover {
     transition: 0.3s;
 }
 
+.burger {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 30px;
+  font-size: 32px;
+  background: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100%);
+  transition: transform 1s ease;
+  z-index: 1000;
+}
+
+
+#menu-toggle:checked~.menu {
+  transform: translateX(0);
+  transition: 1s;
+}
+
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+
+.menu-links {
+  position: relative;
+  bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+
+.menu-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.2s ease;
+}
+
+.menu-links a:hover {
+  color: #ff5020;
+}
+
+
+@media (max-width: 550px) {
+  .burger {
+    display: flex;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .icons {
+    display: flex;
+    gap: 35px;
+  }
+}
+
 .section-1 {
     height: 900px;
 }
@@ -134,13 +218,7 @@ a:hover {
     background-image: url(images/img-8.avif);
 }
 
-.black {
-    background-color: rgba(0, 0, 0, 0.726);
-    width: 100%;
-    height: 652px;
-    position: relative;
-    bottom: 552px;
-}
+
 
 .main-3 {
     height: 652px;
@@ -149,7 +227,6 @@ a:hover {
 .main-6 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     padding: 150px;
@@ -242,7 +319,7 @@ a:hover {
 
 @media (max-width: 550px) {
     .header-main {
-        width:  554px;
+        width:  100%;
         padding: 20px;
         gap: 10px;
     }
@@ -257,12 +334,9 @@ a:hover {
         width: 100px;
     }
 
-    .icon {
-        display: none;
-    }
 
     .section-1 {
-        width: 554px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -271,41 +345,40 @@ a:hover {
         display: flex;
         flex-direction: column;
         height: 300px;
-        width: 554px;
+        width: 100%;
     }
 
     .text1 {
         position: relative;
         left: 0;
-        width: 450px;
+        width: 400px;
     }
 
     .page {
-        padding: 50px;
+        position: relative;
+        top: 150px;
+        width: 400px;
     }
 
     .img-1 {
-        width: 450px;
-        height: 400px;
-        position: relative;
-        top: 120px;
+        width: 400px;
+        height: 350px;
     }
 
     .main-2 {
         padding-right: 0;
         position: relative;
         bottom: 60px;
-        left: 50px;
         gap: 0;
     }
 
     .main-2 p {
-        width: 450px;
+        width: 400px;
         padding: 50px;
     }
 
     .main-3 {
-        width: 554px;
+        width: 100%;
         position: relative;
         bottom: 100px;
         height: 400px;
@@ -315,16 +388,10 @@ a:hover {
         height: 450px;
     }
 
-    .black {
-        height: 468px;
-        position:  relative;
-        top: -1;
-        bottom: 368px;
-    }
 
     .main-6 {
         display: flex;
-        width: 554px;
+        width: 100%;
         padding: 150px 0 0 0;
     }
 
@@ -373,7 +440,7 @@ a:hover {
     }
 
     .map {
-        width: 554px;
+        width: 100%;
         height: 440px;
         position: relative;
         bottom: 13px;

@@ -60,6 +60,90 @@ a:hover {
     transition: 0.3s;
 }
 
+.burger {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 30px;
+  font-size: 32px;
+  background: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100%);
+  transition: transform 1s ease;
+  z-index: 1000;
+}
+
+
+#menu-toggle:checked~.menu {
+  transform: translateX(0);
+  transition: 1s;
+}
+
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+
+.menu-links {
+  position: relative;
+  bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+
+.menu-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.2s ease;
+}
+
+.menu-links a:hover {
+  color: #ff5020;
+}
+
+
+@media (max-width: 550px) {
+  .burger {
+    display: flex;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .icons {
+    display: flex;
+    gap: 35px;
+  }
+}
+
 .background {
     background-color:  rgb(94, 94, 94);
     width: 100%;
@@ -345,22 +429,12 @@ a:hover {
     top: 250px;
 }
 
-.bg-1 {
-    background-color:rgba(0, 0, 0, 0.459);
-    width: 100%;
-    height: 40vh;
-    position: relative;
-    z-index: 1000;
-    bottom: 272px;
-}
-
 .main-6 {
-     display: flex;
-     flex-direction: column;
-     flex-wrap: wrap;
-     justify-content: center;
-     gap: 10px;
-     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 150px;
 }
 
 .card-3 {
@@ -378,7 +452,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.315);
-    width: 370px;
+    width: 350px;
     height: 280px;
     align-items: center;
     justify-content: center;
@@ -446,7 +520,7 @@ a:hover {
 @media (max-width: 550px) {
 
     .header-main {
-        width:  550px;
+        width:  100%;
         padding: 0;
         gap: 10px;
     }
@@ -461,12 +535,8 @@ a:hover {
         width: 100px;
     }
 
-    .icon {
-        display: none;
-    }
-
     .background {
-        width: 550px;
+        width: 100%;
     }
 
     .text-1 {
@@ -482,7 +552,7 @@ a:hover {
     .main {
         display: flex;
         flex-direction: column;
-        width: 550px;
+        width: 100%;
     }
 
     .page1 {
@@ -614,7 +684,7 @@ a:hover {
     }
 
     .main-1 {
-        width: 550px;
+        width: 100%;
     }
 
     .bg-1 {
@@ -626,7 +696,7 @@ a:hover {
 
     .main-6 {
         display: flex;
-        width: 550px;
+        width: 100%;
         padding: 150px 0 0 0;
     }
 
@@ -675,7 +745,7 @@ a:hover {
     }
 
     .map {
-        width: 550px;
+        width: 100%;
         height: 440px;
         position: relative;
         bottom: 13px;

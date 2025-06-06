@@ -26,7 +26,7 @@
                 <a class="icon" href="https://www.yelp.com/"><i class="fa-brands fa-yelp"></i></a>
             </div>
         <input type="checkbox" id="menu-toggle" hidden>
-        <label style="color: orange;" for="menu-toggle" class="burger">
+        <label style="color: rgb(255, 255, 255);" for="menu-toggle" class="burger">
             &#9776;
         </label>
         <div class="menu">
@@ -201,17 +201,81 @@
 
                     <div class="box">
                         <h2>Need an Estimate?</h2>
-                        <a href=""><button id="openpopup" >Fill in the Form </button></a>
-                        <div class="popup" id="popup"></div>
-                        <div class="popup-contect">
-                            <div class="top">
-                                <h3></h3>
+                        <button id="form-button" >Fill in the Form </button>
                             </div>
                         </div>
                     </div>
                 </div>   
             </div>
         </section>
+
+        <div class="hidden">
+            <div class="form" id="form">
+           <div class="main-page">
+             <div class="top11">
+                <h4>GET IN TOUCH</h4>
+                <h1>FILL IN THE FORM</h1>
+            </div>
+            <div>
+                <button id="close-btn" class="close-1" ><i class="fa-solid fa-x"></i></button>
+            </div>
+
+            <form class="forms">
+            <div class="bottom11">
+                <div>
+                    <div class="bottom-page1">
+                        <div>
+                            <label for="text">First Name</label>
+                            <input type="text">
+                        </div>
+                         <div>
+                            <label for="text">Last Name</label>
+                            <input type="text">
+                         </div>
+                    </div>
+
+                    <div>
+                        
+                    </div>
+                    <div class="bottom-page2">
+                         <div>
+                            <label for="">Email</label>
+                            <input type="email" required>
+                         </div>
+                         <div>
+                            <label for="">Phone</label>
+                            <input type="number" required>
+                         </div>
+                    </div>
+                </div>
+                <div class="services-main">
+                    
+                    <div class="services-1">
+                        <select id="services">
+                            <option>Select a Service</option>
+                            <option>Complete Tune Service</option>
+                            <option>Tire Mounting and Balancing</option>
+                            <option>Oil and Filter Change</option>
+                            <option>Carburetor Cleaning and Repair</option>
+                            <option>Scheduled Maintenance</option>
+                        </select>
+                    </div>
+
+                    <div class="text-1">
+                        <label for="">Message</label>
+                        <input type="text">
+                    </div>
+
+                    
+                </div>
+                <button class="buttonn">Submit</button>
+           </div>
+           
+           </form>
+                
+            </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -224,6 +288,7 @@
         
     </footer>
 
+    <script src="./main.js"></script>
 
 </body>
 </html>
