@@ -13,7 +13,7 @@
         <div class="header-main">
             <div class="left" >
                 <a href="home.html"><img class="img" src="images/logo.png" alt=""></a>
-                <h1>Oli's Hog Garage</h1>
+                <a href="home.html"><h1>Oli's Hog Garage</h1></a>
             </div>
 
             <div class="right">
@@ -25,6 +25,24 @@
                 <a class="icon" href="https://www.instagram.com/wix/"><i class="fa-brands fa-instagram"></i></a>
                 <a class="icon" href="https://www.yelp.com/"><i class="fa-brands fa-yelp"></i></a>
             </div>
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label style="color: orange;" for="menu-toggle" class="burger">
+            &#9776;
+        </label>
+        <div class="menu">
+            <label for="menu-toggle" class="close">&times;</label>
+            <nav class="menu-links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="#here">Contact</a>
+                <div class="icons">
+                    <a class="icon" href="https://www.facebook.com/wix"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="icon" href="https://www.instagram.com/wix/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="icon" href="https://www.yelp.com/"><i class="fa-brands fa-yelp"></i></a>
+                </div>
+            </nav>
+        </div>
         </div>
     </header>
 
@@ -67,7 +85,7 @@
                             <img src="images/svg-3.png" alt="">
                             <p>Complete tune service</p>
                         </div>
-                        <a href="services.html"><button class="button"> View All Services</button></a>
+                        <a href="services.html"><button class="button">View All Services</button></a>
                     </div>
                     
                 </div>
@@ -183,9 +201,15 @@
 
                     <div class="box">
                         <h2>Need an Estimate?</h2>
-                        <a href=""><button>Fill in the Form </button></a>
+                        <a href=""><button id="openpopup" >Fill in the Form </button></a>
+                        <div class="popup" id="popup"></div>
+                        <div class="popup-contect">
+                            <div class="top">
+                                <h3></h3>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </div>   
             </div>
         </section>
     </main>

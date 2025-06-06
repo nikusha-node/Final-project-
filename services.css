@@ -28,6 +28,10 @@ header {
     align-items: center;
 }
 
+.left a {
+    text-decoration-line: none;
+}
+
 .left h1 {
     color: white;
     font-size: 20px;
