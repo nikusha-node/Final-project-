@@ -317,6 +317,160 @@ a:hover {
     justify-content: center;
 }
 
+.form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 900px;
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+.block {
+    display: block;
+}
+
+.main-page {
+    width: 100%;
+}
+
+.top11 {
+    padding-bottom: 150px;
+    display: flex;
+    background-color: gray;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 20px;
+    background-image: url(https://www.transparenttextures.com/patterns/asfalt-dark.png);
+}
+
+.top11 h4 {
+    color: white;
+}
+
+.top11 {
+    color: #ff5020;
+    font-size: 21px;
+}
+
+.close-1 {
+    position: relative;
+    left: 890px;
+    bottom: 240px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+}
+
+
+.bottom11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 550px;
+    gap: 30px;
+    width: 800px;
+    position: absolute;
+    bottom: 230px;
+    left: 100px;
+    padding-top: 70px;
+}
+
+.bottom11 input {
+    border: none;
+    border-bottom: 1px solid rgba(53, 53, 53, 0.699);
+}
+
+.bottom-page1 {
+    display: flex;
+    gap: 25px;
+    width: 250px;
+    padding-bottom: 30px;
+    position: relative;
+    right: 125px;
+}
+
+.bottom-page1 input {
+    width: 250px;
+    height: 30px;
+}
+
+.bottom-page2 {
+    display: flex;
+    gap: 25px;
+    width: 250px;
+    padding-bottom: 30px;
+    position: relative;
+    right: 125px;
+}
+
+.bottom-page2 input {
+    height: 30px;
+}
+
+.bottom-page3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.bottom-page3 input {
+    height: 30px;
+}
+
+.bottom-page2 input {
+    width: 250px;
+}
+
+.bottom11 label {
+    font-size: 14px;
+    color: #2d2d2d;
+}
+
+
+.text-1 input {
+    width: 500px;
+    height: 80px;
+}
+
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+ .buttonn {
+    display: flex;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    background-color: #ff5020;
+    color: white;
+    border: none;
+    position: relative; 
+    right: 166px;
+}
+
+.buttonn:hover {
+    border: 1px solid #ff5020;
+    color: #ff5020;
+    background-color: white;
+    transition: 0.6s;
+}
+
 @media (max-width: 550px) {
     .header-main {
         width:  100%;

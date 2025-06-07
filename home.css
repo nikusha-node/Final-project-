@@ -88,7 +88,7 @@ a:hover {
   justify-content: center;
   transform: translateX(100%);
   transition: transform 1s ease;
-  z-index: 1000;
+  z-index: 1500;
 }
 
 
@@ -272,8 +272,8 @@ a:hover {
     color: white;
     width: 100%;
     top: 150px;
-    padding: 0px;
-    font-size: x-large;
+    padding: 110px;
+    font-size: x-large; 
 }
 
 .left3 h1 {
@@ -323,15 +323,15 @@ a:hover {
 
 .card {
     border: 1px solid rgba(0, 0, 0, 0.5);
-    width: 300px;
+    width: 250px;
     height: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 10000;
     color: rgba(0, 0, 0, 0.575);
-    position: relative;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .main-4 {
@@ -389,13 +389,6 @@ a:hover {
     background-image: url(images/img-6.avif);
 }
 
-.bg-2 {
-    width: 100%;
-    height: 652px;
-    position: relative;
-    z-index: 1000;
-    bottom: 652px;
-}
 
 .main-5 {
     height: 652px;
@@ -518,14 +511,23 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     padding-left: 100px;
-    padding-top: 40px;
+    padding-top: 20px;
     background-image: url(https://www.transparenttextures.com/patterns/asfalt-dark.png);
+}
+
+.top11 h4 {
+    color: white;
+}
+
+.top11 h1{
+    color: #ff5020;
+    font-size: 21px;
 }
 
 .close-1 {
     position: relative;
-    left: 870px;
-    bottom: 210px;
+    left: 890px;
+    bottom: 240px;
     font-size: 30px;
     width: 100px;
     height: 100px;
@@ -542,12 +544,13 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: white;
-    height: 500px;
+    height: 550px;
     gap: 30px;
     width: 800px;
     position: absolute;
-    bottom: 240px;
+    bottom: 230px;
     left: 100px;
+    padding-top: 70px;
 }
 
 .bottom11 input {
@@ -558,17 +561,39 @@ a:hover {
 .bottom-page1 {
     display: flex;
     gap: 25px;
-    width: 300px;
+    width: 250px;
+    padding-bottom: 30px;
+    position: relative;
+    right: 125px;
 }
 
 .bottom-page1 input {
     width: 250px;
+    height: 30px;
 }
 
 .bottom-page2 {
     display: flex;
     gap: 25px;
-    width: 300px;
+    width: 250px;
+    padding-bottom: 30px;
+    position: relative;
+    right: 125px;
+}
+
+.bottom-page2 input {
+    height: 30px;
+}
+
+.bottom-page3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.bottom-page3 input {
+    height: 30px;
 }
 
 .bottom-page2 input {
@@ -580,22 +605,10 @@ a:hover {
     color: #2d2d2d;
 }
 
-.services-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.services-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .text-1 input {
     width: 500px;
+    height: 80px;
 }
 
 .text-1 {
@@ -613,10 +626,16 @@ a:hover {
     background-color: #ff5020;
     color: white;
     border: none;
-    margin-right: 350px;
+    position: relative; 
+    right: 166px;
 }
 
-
+.buttonn:hover {
+    border: 1px solid #ff5020;
+    color: #ff5020;
+    background-color: white;
+    transition: 0.6s;
+}
 
 @media (max-width: 550px) {
 
@@ -703,7 +722,7 @@ a:hover {
         display: flex;
         width: 100%;
         position: relative;
-        z-index: 1000;
+        z-index: 1;
     }
 
     .main-3 {
@@ -772,7 +791,7 @@ a:hover {
         height: 400px;
         width: 100%;
         position: relative;
-        z-index: 1000;
+        z-index: 1;
     }
 
     .bg-2 {
@@ -840,6 +859,87 @@ a:hover {
         bottom: 13px;
     }
 
+    .form {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 750px;
+        background-color: #ffffff;
+        z-index: 3;
+    }
+
+    .top11 {
+        padding: 0 0 0 30px;
+        height: 100px;
+    }
+
+    .bottom11 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 400px;
+    }
+
+    .close-1 {
+        position: relative;
+        left: 340px;
+        bottom: 80px;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .bottom11 input {
+        width: 250px;
+    }
+
+    .bottom-page1 {
+        position: relative;
+        bottom: 110px;
+        right: 10px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-page2 {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding-bottom: 0;
+        position: relative;
+        right: 10px;
+        bottom: 110px;
+    }
+
+    .bottom-page3 {
+        width: 250px;
+        position: relative;
+        bottom: 110px;
+        right: 10px;
+    }
+
+    .text-1 {
+        width: 250px;
+        position: relative;
+        bottom: 110px;
+        right: 10px;
+    }
+
+    .text-1 input {
+        height: 40px;
+    }
+
+    .buttonn {
+        position: relative;
+        right: 0;
+        bottom: 100px;
+        min-height: 30px;
+        width: 250px;
+        right: 10px;
+    }
 
 }
 
