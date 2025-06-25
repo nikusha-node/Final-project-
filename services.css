@@ -178,25 +178,27 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .page1 {
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     align-items: flex-start;
     position: relative;
     flex-direction: column;
     bottom: 170px;
-    width: 980px;
-    height: 200px;
-    padding: 0 20px 0 20px;
+    width: 80%;
+    height: 250px;
+    padding: 0 30px 0 30px;
+    z-index: 1;
 }
 
 .text-2 {
     border-top: 1px solid black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-    width: 920px;
+    width: 100%;
     display: flex;
     padding: 20px 0 20px 0;
     position: relative;
@@ -229,20 +231,22 @@ a:hover {
 
 .page2 {
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    bottom: 120px;
-    width: 980px;
-    padding: 0 20px 0 20px;
+    bottom: 170px;
+    width: 80%;
+    height: 250px;
+    padding: 0 30px 0 30px;
+    z-index: 1;
 }
 
 .text-4 {
     border-top: 1px solid black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-    width: 920px;
+    width: 100%;
     display: flex;
     padding: 20px 0 20px 0;
     position: relative;
@@ -274,20 +278,22 @@ a:hover {
 
 .page3 {
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    bottom: 50px;
-    width: 980px;
-    padding: 0 20px 0 20px;
+    bottom: 170px;
+    width: 80%;
+    height: 250px;
+    padding: 0 30px 0 30px;
+    z-index: 1;
 }
 
 .text-6 {
     border-top: 1px solid black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-    width: 920px;
+    width: 100%;
     display: flex;
     padding: 20px 0 20px 0;
     position: relative;
@@ -319,20 +325,22 @@ a:hover {
 
 .page4 {
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    top: 30px;
-    width: 980px;
-    padding: 0 20px 0 20px;
+    bottom: 170px;
+    width: 80%;
+    height: 250px;
+    padding: 0 30px 0 30px;
+    z-index: 1;
 }
 
 .text-8 {
     border-top: 1px solid black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-    width: 920px;
+    width: 100%;
     display: flex;
     padding: 20px 0 20px 0;
     position: relative;
@@ -366,20 +374,22 @@ a:hover {
 
 .page5 {
     display: flex;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     align-items: flex-start;
     position: relative;
     flex-direction: column;
-    top: 120px;
-    width: 980px;
-    padding: 0 20px 0 20px;
+    bottom: 170px;
+    width: 80%;
+    height: 250px;
+    padding: 0 30px 0 30px;
+    z-index: 1;
 }
 
 .text-10 {
     border-top: 1px solid black;
     border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-    width: 920px;
+    width: 100%;
     display: flex;
     padding: 20px 0 20px 0;
     position: relative;
@@ -411,7 +421,9 @@ a:hover {
 
 .border {
     border-bottom: 1px solid black;
-    width: 920px;
+    width: 100%;
+    position: relative;
+    top: 70px;
 }
 
 .main-1 {
@@ -438,7 +450,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    padding: 150px;
+    padding: 100px 150px 50px 150px;
 }
 
 .card-3 {
@@ -1012,4 +1024,43 @@ a:hover {
         right: 10px;
     }
    
+}
+
+
+@media (max-width: 1000px) {
+
+    .top-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 350px;
+    }
+}
+
+@media (max-width: 700px) {
+    .icons {
+        display: none;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .header-main {
+        padding: 30px 10px 30px 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-main {
+        padding: 30px 20px 30px 20px;
+    }
 }
